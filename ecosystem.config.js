@@ -25,7 +25,7 @@ module.exports = {
       port: '22',
       ref : 'origin/master',
       repo: 'https://github.com/cxk0831/node-elm.git',
-      path: '/root/mygit/node-elm',
+      path: '/root/home/project/node-elm',
       'ssh_options': 'StrictHostKeyChecking=no',
       'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production',
     }
