@@ -21,10 +21,10 @@ module.exports = {
   deploy: {
     production: {
       user: 'root',
-      host: ['139.224.234.213'],
+      host: ['8.136.217.230'],
       port: '22',
       ref : 'origin/master',
-      repo: 'git@github.com:bailicangdu/node-elm.git',
+      repo: 'https://github.com/cxk0831/node-elm.git',
       path: '/root/mygit/node-elm',
       'ssh_options': 'StrictHostKeyChecking=no',
       'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production',
